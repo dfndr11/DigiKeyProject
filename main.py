@@ -28,7 +28,7 @@ access_token = str(DigiKeyDataExcel["access_token"][0])
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-def getNewToken():                            # Gets a new access token (expires every 30 min)
+def getNewToken():                           # Gets a new access token (expires every 30 min)
     refresh_params = {
         "client_secret": client_secret,
         "client_id": client_id,
